@@ -1,0 +1,58 @@
+
+/*------------------PSEUDO-CLASSES--------------------*/
+/*ao colocar o mouse em cima fica maior*/
+a:hover{
+    font-size: 25px;
+}
+
+/*ao colocar o mouse em cima fica vermelho*/
+div:hover{
+    color: red;
+}
+
+/*ao colocar o mouse em cima fica, vai selecionar o paragrafo que for o primeiro filho do elemnto pai*/
+p:first-child{
+    border: 1px solid yellow;
+}
+
+/*refere ao ultimo filho*/
+p:last-child{
+    border: 2px solid red;
+}
+
+/*seleciona o quarto elemento que é um paragrafo (even: paragrafo par, odd: paragrafo impar)*/
+p:nth-child(4){
+    background:cornflowerblue;
+}
+
+
+/*------------------PSEUDO-ELEMENTOS--------------------*/
+/*seleciona parte de umelemento ou cria um elemento*/
+
+/*selecionando parte de um elemento*/
+p::first-letter{
+    font-size: 25px;
+}
+
+/*primeira linha de todos os paragrafos tem um tamanho maior*/
+p::first-line{
+    font-size: 25px;
+}
+
+/*altera quando um elemento é selecionado pelo usuario 'clica segura e arrasta para selecioanr'*/
+p::selection{
+    background: crimson;
+}
+
+/*adiciona um conteudo antes do conteudo do h1, (after) é depois, posso aumentar com font size maior ou definir a cor dela*/
+h1::before{
+    content: '→';
+    font-size: 50px;
+    color: darkcyan;
+}
+h1::after{
+    content: '←';
+}
+
+/*------------------SELETORES DE ATRIBUTOS--------------------*/
+
