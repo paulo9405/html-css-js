@@ -7,6 +7,7 @@
     <title>Design Responsivo</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-home.css">
 
 </head>
 <body>
@@ -23,35 +24,35 @@
         </nav>
     </header>
     <main>
-        <header>
-            <h2>Texto grande aqui</h2>
-            <p>Texto menorzinho aqui</p>
-            <a href="#servicos">Role para ver mais</a>
+        <header class="cabecalho-home">
+            <h2 class="cabecalho-home__titulo">Texto grande aqui</h2>
+            <p class="cabecalho-home__subtitulo">Texto menorzinho aqui</p>
+            <a  class="cabecalho-home__role" href="#servicos">Role para ver mais</a>
         </header>
-        <section id="servicos"><!--Seção serviços-->
-            <h2>O que fazemos</h2>
-            <section>
+        <section id="servicos" class="servicos"><!--Seção serviços-->
+            <h2 class="home__titulo">O que fazemos</h2>
+            <section class="servicos__item">
                 <img src="img/icone-desenvolvimento-web.png" alt="Icone planeta terra">
                 <h3>Desenvolvimento web</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum numquam inventore vero. Cumque sapiente neque in velit iure voluptates, recusandae veritatis magnam fuga ipsum iusto doloremque, eveniet, deleniti nihil?</p>
+                <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum numquam inventore vero. Cumque sapiente neque in velit iure voluptates, recusandae veritatis magnam fuga ipsum iusto doloremque, eveniet, deleniti nihil?</p>
             </section>
-            <section>
+            <section class="servicos__item">
                 <img src="img/icone-carrinho-compras.png" alt="Icone carrinho de compras">
                 <h3>E-commerce web</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum numquam inventore vero. Cumque sapiente neque in velit iure voluptates, recusandae veritatis magnam fuga ipsum iusto doloremque, eveniet, deleniti nihil?</p>
+                <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum numquam inventore vero. Cumque sapiente neque in velit iure voluptates, recusandae veritatis magnam fuga ipsum iusto doloremque, eveniet, deleniti nihil?</p>
             </section>
-            <section>
+            <section class="servicos__item">
                 <img src="img/icone-cafe.png" alt="Icone xicara de cafe">
                 <h3>Cafe</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum numquam inventore vero. Cumque sapiente neque in velit iure voluptates, recusandae veritatis magnam fuga ipsum iusto doloremque, eveniet, deleniti nihil?</p>
+                <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum numquam inventore vero. Cumque sapiente neque in velit iure voluptates, recusandae veritatis magnam fuga ipsum iusto doloremque, eveniet, deleniti nihil?</p>
             </section>
         </section><!--Fim seção serviços-->
-        <section><!--Seção Depoimentos-->
-            <h2>O que falam de nos</h2>
-            <section>
-                <img src="img/depoimentos/pessoa-1.jpg" alt="Foto da pessoa x">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p>Nome pessoa - Cargo</p>
+        <section class="depoimentos"><!--Seção Depoimentos-->
+            <h2 class="home__titulo home__titulo--branco">O que falam de nos</h2>
+            <section class="depoimentos__item">
+                <img class="depoimentos__img" src="img/depoimentos/pessoa-1.jpg" alt="Foto da pessoa x">
+                <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="depoimentos__pessoa">Nome pessoa - Cargo</p>
             </section>
         </section>
     </main>
