@@ -396,32 +396,27 @@ body {
   background-attachment: fixed;
   color: white;
   padding: 30px 0; }
-
-.depoimentos__titulo {
-  padding: 0 15px; }
-
-.depoimentos__img {
-  margin: 0 auto;
-  display: block;
-  box-shadow: 3px 3px 0 black;
-  margin-bottom: 30px; }
-
-.depoimentos__texto {
-  line-height: 24px;
-  margin-bottom: 30px; }
-
-.depoimentos__texto::before {
-  background: url("../img/aspas.png") no-repeat;
-  content: '';
-  display: inline-block;
-  width: 25px;
-  height: 23px;
-  margin-right: 5px; }
-
-.depoimentos__pessoa {
-  text-align: center;
-  font-weight: bold;
-  font-style: italic; }
+  .depoimentos__titulo {
+    padding: 0 15px; }
+  .depoimentos__img {
+    margin: 0 auto;
+    display: block;
+    box-shadow: 3px 3px 0 black;
+    margin-bottom: 30px; }
+  .depoimentos__texto {
+    line-height: 24px;
+    margin-bottom: 30px; }
+  .depoimentos__texto::before {
+    background: url("../img/aspas.png") no-repeat;
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 23px;
+    margin-right: 5px; }
+  .depoimentos__pessoa {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic; }
 
 .formulario {
   background-color: #efecec;
@@ -429,29 +424,25 @@ body {
   margin-right: -15px;
   padding: 40px 15px 40px 15px;
   box-shadow: 0 3px 5px #989898; }
-
-.formulario__grupo {
-  margin-bottom: 15px; }
-
-.formulario__campo {
-  width: 100%;
-  border: 1px solid #c4c4c4;
-  border-radius: 5px;
-  padding: 10px 5px; }
-
-.formulario__label {
-  color: #343434; }
-
-.formulario__botao {
-  border: 3px solid #f44242;
-  border-radius: 300px;
-  background-color: white;
-  color: #f44242;
-  padding: 5px 20px;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto;
-  font-weight: bold; }
+  .formulario__grupo {
+    margin-bottom: 15px; }
+  .formulario__campo {
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 10px 5px; }
+  .formulario__label {
+    color: #343434; }
+  .formulario__botao {
+    border: 3px solid #f44242;
+    border-radius: 300px;
+    background-color: white;
+    color: #f44242;
+    padding: 5px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold; }
 
 .logo {
   background-image: url("../img/logotipo-preto.png");
@@ -461,11 +452,10 @@ body {
   height: 53px;
   text-indent: -9999px;
   margin: 0; }
+  .logo--branco {
+    background-image: url("../img/logotipo-branco.png"); }
 
 /*logo com fundo branco no rodapé*/
-.logo--branco {
-  background-image: url("../img/logotipo-branco.png"); }
-
 .mapa {
   background: #f44242;
   height: 0;
@@ -473,13 +463,12 @@ body {
   position: relative;
   overflow: hidden;
   margin: 0 -15px -25px  -15px; }
-
-.mapa iframe {
-  width: 100% !important;
-  height: 100% !important;
-  position: absolute;
-  top: 0;
-  left: 0; }
+  .mapa iframe {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0; }
 
 .menu-principal__btn {
   display: block;
