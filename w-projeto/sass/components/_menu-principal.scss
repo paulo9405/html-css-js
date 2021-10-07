@@ -40,6 +40,6 @@
 
 /*criando modificador para ficar na pagina atual (tipo 'active do bootstrap')*/
 .menu-principal__item--atual{
-    color: red; /*qundo estiver na pagina a cor vai ficar vermelha*/
+    color: $cor-principal; /*qundo estiver na pagina a cor vai ficar vermelha*/
 
 }

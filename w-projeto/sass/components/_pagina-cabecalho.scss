@@ -1,5 +1,5 @@
 .pagina-cabecalho{
-    background-color: #dd3f3f;  /*cor de fundo*/
+    background-color: $cor-principal;  /*cor de fundo*/
     background-image: url("../img/cabecalho-pagina-bg.jpg"); /*imagem de fundo*/
     background-attachment: fixed; /*deixando o conteudo de fundo fixo*/
     color: white; /*cor do titulo*/
