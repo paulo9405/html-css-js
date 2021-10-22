@@ -10,16 +10,18 @@
 </head>
 <body>
     <header class="cabecalho">
-        <h1 class="logo">Design Responsivo Home</h1>
-        <nav class="menu-principal">
-            <button class="menu-principal__btn">Abrir/Fechar menu</button>
-            <ul class="menu-principal__lista">
-                <li><a class="menu-principal__item menu-principal__item--atual" href="index.html">Home</a></li>
-                <li><a class="menu-principal__item" href="sobre.html">Sobre nós</a></li>
-                <li><a class="menu-principal__item" href="portifolio.html">Portifolio</a></li>
-                <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container"><!--inicio container-->
+            <h1 class="logo">Design Responsivo Home</h1>
+            <nav class="menu-principal">
+                <button class="menu-principal__btn">Abrir/Fechar menu</button>
+                <ul class="menu-principal__lista">
+                    <li><a class="menu-principal__item menu-principal__item--atual" href="index.html">Home</a></li>
+                    <li><a class="menu-principal__item" href="sobre.html">Sobre nós</a></li>
+                    <li><a class="menu-principal__item" href="portifolio.html">Portifolio</a></li>
+                    <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div> <!--Fim container-->
     </header>
     <main>
         <header class="cabecalho-home">
@@ -28,56 +30,62 @@
             <a  class="cabecalho-home__role" href="#servicos">Role para ver mais</a>
         </header>
         <section id="servicos" class="servicos"><!--Seção serviços-->
-            <h2 class="home__titulo">O que fazemos</h2>
-            <section class="servicos__item">
-                <img src="img/icone-desenvolvimento-web.png" alt="Icone planeta terra">
-                <h3>Desenvolvimento web</h3>
-                <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum numquam inventore vero. Cumque sapiente neque in velit iure voluptates, recusandae veritatis magnam fuga ipsum iusto doloremque, eveniet, deleniti nihil?</p>
-            </section>
-            <section class="servicos__item">
-                <img src="img/icone-carrinho-compras.png" alt="Icone carrinho de compras">
-                <h3>E-commerce web</h3>
-                <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum numquam inventore vero. Cumque sapiente neque in velit iure voluptates, recusandae veritatis magnam fuga ipsum iusto doloremque, eveniet, deleniti nihil?</p>
-            </section>
-            <section class="servicos__item">
-                <img src="img/icone-cafe.png" alt="Icone xicara de cafe">
-                <h3>Cafe</h3>
-                <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum numquam inventore vero. Cumque sapiente neque in velit iure voluptates, recusandae veritatis magnam fuga ipsum iusto doloremque, eveniet, deleniti nihil?</p>
-            </section>
+            <dev class="container"> <!--inicio container-->
+                <h2 class="home__titulo">O que fazemos</h2>
+                <section class="servicos__item">
+                    <img src="img/icone-desenvolvimento-web.png" alt="Icone planeta terra">
+                    <h3>Desenvolvimento web</h3>
+                    <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum numquam inventore vero. Cumque sapiente neque in velit iure voluptates, recusandae veritatis magnam fuga ipsum iusto doloremque, eveniet, deleniti nihil?</p>
+                </section>
+                <section class="servicos__item">
+                    <img src="img/icone-carrinho-compras.png" alt="Icone carrinho de compras">
+                    <h3>E-commerce web</h3>
+                    <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum numquam inventore vero. Cumque sapiente neque in velit iure voluptates, recusandae veritatis magnam fuga ipsum iusto doloremque, eveniet, deleniti nihil?</p>
+                </section>
+                <section class="servicos__item">
+                    <img src="img/icone-cafe.png" alt="Icone xicara de cafe">
+                    <h3>Cafe</h3>
+                    <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum numquam inventore vero. Cumque sapiente neque in velit iure voluptates, recusandae veritatis magnam fuga ipsum iusto doloremque, eveniet, deleniti nihil?</p>
+                </section>
+            </dev> <!--Fim container-->
         </section><!--Fim seção serviços-->
         <section class="depoimentos"><!--Seção Depoimentos-->
-            <h2 class="home__titulo home__titulo--branco">O que falam de nos</h2>
-            <section class="depoimentos__item">
-                <img class="depoimentos__img" src="img/depoimentos/pessoa-1.jpg" alt="Foto da pessoa x">
-                <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p class="depoimentos__pessoa">Nome pessoa - Cargo</p>
-            </section>
+            <div class="container">
+                <h2 class="home__titulo home__titulo--branco">O que falam de nos</h2>
+                <section class="depoimentos__item">
+                    <img class="depoimentos__img" src="img/depoimentos/pessoa-1.jpg" alt="Foto da pessoa x">
+                    <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="depoimentos__pessoa">Nome pessoa - Cargo</p>
+                </section>
+            </div>
         </section>
     </main>
     <footer class="rodape">
         <div class="rodape__linha-1">
-            <div class="rodape__coluna">
-                <a href="index.html" class="logo logo--branco">Design Responsivo</a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum numquam inventore vero. Cumque sapiente neque in velit iure voluptates, recusandae veritatis magnam fuga ipsum iusto doloremque, eveniet, deleniti nihil?</p>
-            </div>
-            <div class="rodape__coluna">
-                <h2 class="rodape__titulo">Social</h2>
-                <ul class="rodape__lista-links">
-                    <li><a class="rodape__lista-links__item" href="https://twitter.com/paulo" target="_blank">Twitter</a></li>
-                    <li><a class="rodape__lista-links__item" href="https://facebook.com" target="_blank">Facebook</a></li>
-                    <li><a class="rodape__lista-links__item" href="https://instagran.com" target="_blank">Instagran</a></li>
-                    <li><a class="rodape__lista-links__item" href="https://youtube.com" target="_blank">Youtube</a></li>
-                </ul>
-            </div>
-            <div class="rodape__coluna">
-                <h2 class="rodape__titulo">Links</h2>
-                <ul class="rodape__lista-links">
-                    <li><a class="rodape__lista-links__item" href="index.html">Home</a></li>
-                    <li><a class="rodape__lista-links__item" href="sobre.html">Sobre nos</a></li>
-                    <li><a class="rodape__lista-links__item" href="portifolio.html">Portifolio</a></li>
-                    <li><a class="rodape__lista-links__item" href="contato.html">Contato</a></li>
-                </ul>
-            </div>
+            <dev class="container"> <!--inicio container-->
+                <div class="rodape__coluna">
+                    <a href="index.html" class="logo logo--branco">Design Responsivo</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum numquam inventore vero. Cumque sapiente neque in velit iure voluptates, recusandae veritatis magnam fuga ipsum iusto doloremque, eveniet, deleniti nihil?</p>
+                </div>
+                <div class="rodape__coluna">
+                    <h2 class="rodape__titulo">Social</h2>
+                    <ul class="rodape__lista-links">
+                        <li><a class="rodape__lista-links__item" href="https://twitter.com/paulo" target="_blank">Twitter</a></li>
+                        <li><a class="rodape__lista-links__item" href="https://facebook.com" target="_blank">Facebook</a></li>
+                        <li><a class="rodape__lista-links__item" href="https://instagran.com" target="_blank">Instagran</a></li>
+                        <li><a class="rodape__lista-links__item" href="https://youtube.com" target="_blank">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="rodape__coluna">
+                    <h2 class="rodape__titulo">Links</h2>
+                    <ul class="rodape__lista-links">
+                        <li><a class="rodape__lista-links__item" href="index.html">Home</a></li>
+                        <li><a class="rodape__lista-links__item" href="sobre.html">Sobre nos</a></li>
+                        <li><a class="rodape__lista-links__item" href="portifolio.html">Portifolio</a></li>
+                        <li><a class="rodape__lista-links__item" href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </dev> <!--Fim container-->
         </div>
         <div class="rodape__linha-2">
             2021 - Todos os direitos reservados - Paulo Gomes

@@ -329,6 +329,10 @@ img {
 body {
   font-family: "Source Sans Pro"; }
 
+.container {
+  width: 1200;
+  margin: 0 auto; }
+
 .cabecalho {
   background: white;
   padding: 15px;
@@ -404,6 +408,7 @@ body {
     box-shadow: 3px 3px 0 black;
     margin-bottom: 30px; }
   .depoimentos__texto {
+    text-align: center;
     line-height: 24px;
     margin-bottom: 30px; }
   .depoimentos__texto::before {
